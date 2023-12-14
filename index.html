@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Grade Calculator</title>
+</head>
+<body>
+  <div id="app">
+    <h1>Grade Calculator</h1>
+    <form id="gradeForm">
+      <div class="subject">
+        <label for="subjectName0">Subject Name:</label>
+        <input type="text" id="subjectName0" name="subjectName0" required>
+        
+        <label for="credits0">Credits:</label>
+        <input type="number" id="credits0" name="credits0" required>
+        
+        <label for="gradePoint0">Grade Point:</label>
+        <input type="number" id="gradePoint0" name="gradePoint0" step="0.1" required>
+      </div>
+    </form>
+    <div id="clickers">
+        <button type="button" onclick="addSubject()">Add Subject</button>
+        <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
