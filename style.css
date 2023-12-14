@@ -33,4 +33,16 @@ body {
   button:hover {
     background-color: #0056b3;
   }
+
+#madeByMe {
+    position: fixed;
+    bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    right: 10px;
+    color: #000000;
+  }
+  
+  #madeByMe p {
+    margin: 0;
+  }
   
